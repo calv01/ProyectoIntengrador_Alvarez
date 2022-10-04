@@ -9,7 +9,8 @@ import { LogoAPComponent } from './components/logo-ap/logo-ap.component';
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent
+    HeaderComponent,
+    LogoAPComponent
   ],
   imports: [
     BrowserModule,
