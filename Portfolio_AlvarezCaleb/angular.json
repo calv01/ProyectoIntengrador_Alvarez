@@ -23,9 +23,13 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "Portfolio_AlvarezCaleb/node_modules/bootstrap/css/bootstrap.css"
+
             ],
-            "scripts": []
+            "scripts": [
+              "Portfolio_AlvarezCaleb/node_modules/bootstrap/js/bootstrap.js"
+            ]
           },
           "configurations": {
             "production": {
