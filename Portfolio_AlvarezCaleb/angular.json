@@ -23,12 +23,11 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css",
-              "Portfolio_AlvarezCaleb/node_modules/bootstrap/css/bootstrap.css"
+              "src/styles.css"              
 
             ],
             "scripts": [
-              "Portfolio_AlvarezCaleb/node_modules/bootstrap/js/bootstrap.js"
+            
             ]
           },
           "configurations": {
