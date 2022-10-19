@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -26,11 +26,14 @@ import { HysComponent } from './components/hys/hys.component';
     ExperienciaComponent,
     EducacionComponent,
     HysComponent,
+    
+  
   
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    NgCircleProgressModule.forRoot({})
     
   ],
   providers: [],
