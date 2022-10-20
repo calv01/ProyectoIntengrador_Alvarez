@@ -1,14 +1,8 @@
 div{
     background-color: #a1b5cb;
+    background-image: url(../../img/fondo.jpg);
 }
 app-social {
     float: right;
     margin-top: 25px;
-}
-.side-header {
-    background-color: #333333;
-    padding: 1rem 0rem;
-}
-.inicio {
-    background-image: url(../../img/fondo.jpg);
 }
