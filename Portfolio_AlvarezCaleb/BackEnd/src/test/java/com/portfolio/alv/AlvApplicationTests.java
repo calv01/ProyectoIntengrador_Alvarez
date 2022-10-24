@@ -1,10 +1,10 @@
-package com.portfolio.Alvarez;
+package com.portfolio.alv;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class AlvarezApplicationTests {
+class AlvApplicationTests {
 
 	@Test
 	void contextLoads() {
