@@ -33,13 +33,16 @@ import {HttpClientModule } from '@angular/common/http';
     FooterComponent,
     
   
+    
+  
   
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     NgCircleProgressModule.forRoot({}),
-    HttpClientModule
+    HttpClientModule,
+
     
   ],
   providers: [],
