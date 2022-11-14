@@ -19,7 +19,8 @@
                     <td>{{Experiencia.descripcionE}}</td>
                     <td *ngIf="isLogged">
                         <button class="btn btn-light" routerLink="/editexp/{{Experiencia.id}}">
-                            <i class="bi bi-pencil"></i>EDITAR</button></td>
+                            <i class="bi bi-pencil"></i>EDITAR</button>
+                        </td>
 
                     <td *ngIf="isLogged">
                         <button class="btn btn-danger" (click)="delete(Experiencia.id)">
