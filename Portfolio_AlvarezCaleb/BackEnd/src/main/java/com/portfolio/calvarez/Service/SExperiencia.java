@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.portfolio.calvarez.Security.Service;
+package com.portfolio.calvarez.Service;
 
 import com.portfolio.calvarez.Entity.Experiencia;
 import com.portfolio.calvarez.Repository.RExperiencia;
@@ -16,6 +16,7 @@ import org.springframework.stereotype.Service;
 @Service
 @Transactional
 public class SExperiencia {
+    
     @Autowired
     RExperiencia rExperiencia;
     
@@ -47,3 +48,4 @@ public class SExperiencia {
         return rExperiencia.existsByNombreE(nombreE);
     }
 }
+

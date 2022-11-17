@@ -9,7 +9,7 @@ package com.portfolio.calvarez.Controller;
 import com.portfolio.calvarez.Dto.dtoExperiencia;
 import com.portfolio.calvarez.Entity.Experiencia;
 import com.portfolio.calvarez.Security.Controller.Mensaje;
-import com.portfolio.calvarez.Security.Service.SExperiencia;
+import com.portfolio.calvarez.Service.SExperiencia;
 import java.util.List;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
