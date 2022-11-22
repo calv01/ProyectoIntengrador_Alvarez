@@ -25,9 +25,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@CrossOrigin(origins = "https://localhost:4200")
-//@CrossOrigin(origins ="https://frontendalvarez.web.app")
-@RequestMapping("/hys")
+//@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins ="https://frontendalvarez.web.app")
+@RequestMapping("/skill")
 public class CHys {
 
     @Autowired
@@ -90,7 +90,7 @@ public class CHys {
     public ResponseEntity<?> delete(@PathVariable("id") int id) {
         //Validamos si existe el ID
         if (!shys.existsById(id)) {
-            return new ResponseEntity(new Mensaje("El ID no existe"), HttpStatus.BAD_REQUEST);
+            return new ResponseEntity(new Mensaje("No existe"), HttpStatus.NOT_FOUND);
         }
         shys.delete(id);
         return new ResponseEntity(new Mensaje("Skill eliminada"), HttpStatus.OK);

@@ -1,6 +1,8 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
+import { environment } from 'src/environments/environment';
+
 import { persona } from '../model/persona.model';
 
 
@@ -9,11 +11,11 @@ import { persona } from '../model/persona.model';
   providedIn: 'root'
 })
 export class PersonaService {
-  URL = 'https://bkdalvarez.herokuapp.com/personas/';
+  URL = environment.URL + 'personas/';
 
   constructor(private http: HttpClient) { }
   public getPersona(): Observable<persona>{
-    return this.http.get<persona>(this.URL+ 'traer/perfil');
+    return this.http.get<persona>(this.URL + 'traer/perfil');
 
   }
 
