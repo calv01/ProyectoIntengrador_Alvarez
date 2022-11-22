@@ -16,12 +16,12 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@CrossOrigin(origins = "https://frontendalvarez.web.app/")
+@CrossOrigin(origins = "https://frontendalvarez.web.app")
 public class PersonaController {
     @Autowired IPersonaService ipersonaService;
     
    
-     @GetMapping("personas/traer")
+     @GetMapping("/personas/traer")
     public List<Persona> getPersona(){
         return ipersonaService.getPersona();
     }
