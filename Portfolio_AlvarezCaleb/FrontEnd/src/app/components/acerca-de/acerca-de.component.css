@@ -4,6 +4,7 @@
 div{
     background-color: #a1b5cb;
     text-align: center;
+    font-family: Arial;
 }
 /*Estilo foto de perfil*/
 @media (min-width:576px){
